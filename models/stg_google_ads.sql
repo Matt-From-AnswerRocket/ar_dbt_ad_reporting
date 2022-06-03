@@ -26,7 +26,9 @@ with base as (
         utm_term,
         coalesce(clicks, 0) as clicks,
         coalesce(impressions, 0) as impressions,
-        coalesce(spend, 0) as spend
+        coalesce(spend, 0) as spend,
+        coalesce(conversions, 0) as conversions,
+        coalesce(conversion_value, 0) as conversion_value
     from base
 
 )

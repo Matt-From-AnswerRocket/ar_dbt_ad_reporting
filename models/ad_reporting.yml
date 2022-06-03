@@ -39,6 +39,9 @@ models:
 
       - name: spend
         description: The cost of the ads.
+        
+      - name: conversions
+        description: The count of conversions.
 
       - name: base_url
         description: The base URL of the ad.
