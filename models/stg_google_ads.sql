@@ -28,7 +28,7 @@ with base as (
         coalesce(impressions, 0) as impressions,
         coalesce(spend, 0) as spend,
         coalesce(conversions, 0) as conversions,
-        coalesce(conversion_value, 0) as conversion_value
+        coalesce(conversions_value, 0) as conversions_value
     from base
 
 )

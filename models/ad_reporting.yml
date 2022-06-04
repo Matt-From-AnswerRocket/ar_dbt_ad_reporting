@@ -42,6 +42,9 @@ models:
         
       - name: conversions
         description: The count of conversions.
+        
+      - name: conversions_value
+        description: The value of conversions.
 
       - name: base_url
         description: The base URL of the ad.
