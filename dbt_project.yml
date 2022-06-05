@@ -41,16 +41,6 @@ models:
   twitter_ads_source:
     enabled: false
   
-  facebook_ads:
-    enabled: true
-  facebook_ads_source:
-    enabled: true
-  
-  google_ads:
-    enabled: true
-  google_ads_source:
-    enabled: true
-
   snapchat_ads:
     enabled: false
   snapchat_ads_source:
