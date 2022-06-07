@@ -1,5 +1,5 @@
 packages:
-- git: "https://github.com/Matt-From-AnswerRocket/ar_dbt_google_ads.git"
+- git: "https://github.com/dsnam/ar_dbt_google_ads.git"
 
 - git: "https://github.com/Matt-From-AnswerRocket/ar_dbt_facebook_ads.git"
 
