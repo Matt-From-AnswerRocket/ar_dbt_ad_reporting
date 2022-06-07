@@ -1,4 +1,5 @@
-{{ log(var('ad_reporting__facebook_ads_enabled') | as_bool) config(enabled=var('ad_reporting__facebook_ads_enabled') | as_bool) }}
+{{ log(var('ad_reporting__facebook_ads_enabled') | as_bool) }}
+{{ config(enabled=var('ad_reporting__facebook_ads_enabled') | as_bool) }}
 
 with base as (
 
