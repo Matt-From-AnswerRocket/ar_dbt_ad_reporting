@@ -1,4 +1,4 @@
-{{ config(enabled=tojson(var('ad_reporting__facebook_ads_enabled'))) }}
+{{ config(enabled=var('ad_reporting__facebook_ads_enabled')) }}
 
 with base as (
 
