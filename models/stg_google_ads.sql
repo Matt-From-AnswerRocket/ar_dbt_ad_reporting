@@ -12,7 +12,7 @@ with base as (
         cast(date_day as date) as date_day,
         account_name,
         {% if var('api_source','adwords') == 'google_ads' %} cast(account_id as {{ dbt_utils.type_string() }}) as account_id {% else %} cast(external_customer_id as {{ dbt_utils.type_string() }}) as account_id {% endif %} ,
-        campaign_name,
+        lower(campaign_name) as campaign_name,
         cast(campaign_id as {{ dbt_utils.type_string() }}) as campaign_id,
         ad_group_name,
         cast(ad_group_id as {{ dbt_utils.type_string() }}) as ad_group_id,
