@@ -1,5 +1,6 @@
 packages:
 - git: "https://github.com/dsnam/ar_dbt_google_ads.git"
+  revision: "alex/campaign-stats"
 
 - git: "https://github.com/Matt-From-AnswerRocket/ar_dbt_facebook_ads.git"
 
